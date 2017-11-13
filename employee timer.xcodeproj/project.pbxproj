@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		16B84D498A805FB432B20225 /* Pods_employee_timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51721653C0D897F3BFD9BAB0 /* Pods_employee_timer.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		A5477C30FB203FB18A603B86 /* Pods_WalkWalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E78483BA89D55572F0F7EF9C /* Pods_WalkWalk.framework */; };
 		AE0213491DCF8130006F927F /* setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0213481DCF8130006F927F /* setting.swift */; };
 		AE0B0A7F1E62D461000E539C /* billView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0B0A7E1E62D461000E539C /* billView.swift */; };
 		AE1B3DB11DF824E100BB507F /* employerCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1B3DB01DF824E100BB507F /* employerCellTableViewCell.swift */; };
@@ -96,9 +95,6 @@
 		AEE95E4C1D7B092A00093B51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEE95E4F1D7B092A00093B51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEE95E511D7B092A00093B51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C85FED60A567714D97C14E2F /* Pods-employee timer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-employee timer.release.xcconfig"; path = "Pods/Target Support Files/Pods-employee timer/Pods-employee timer.release.xcconfig"; sourceTree = "<group>"; };
-		CA959FB061F7DAB537A0F036 /* Pods-employee timer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-employee timer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-employee timer/Pods-employee timer.debug.xcconfig"; sourceTree = "<group>"; };
-		E78483BA89D55572F0F7EF9C /* Pods_WalkWalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WalkWalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42DD2981FB03E6A00BBAE75 /* recordsStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recordsStructure.swift; sourceTree = "<group>"; };
 		F44CF4031FAB67FA00093950 /* UIControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIControl.h; sourceTree = "<group>"; };
 		F4D0683B1FA9C5920079CA88 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
@@ -112,7 +108,6 @@
 				F4D0683C1FA9C5920079CA88 /* StoreKit.framework in Frameworks */,
 				AE29BE9D1D972A910066214D /* UIKit.framework in Frameworks */,
 				16B84D498A805FB432B20225 /* Pods_employee_timer.framework in Frameworks */,
-				A5477C30FB203FB18A603B86 /* Pods_WalkWalk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +120,6 @@
 				F4D0683B1FA9C5920079CA88 /* StoreKit.framework */,
 				AE29BE9C1D972A910066214D /* UIKit.framework */,
 				51721653C0D897F3BFD9BAB0 /* Pods_employee_timer.framework */,
-				E78483BA89D55572F0F7EF9C /* Pods_WalkWalk.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -133,8 +127,6 @@
 		777F6928BA199F80D8F8319E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CA959FB061F7DAB537A0F036 /* Pods-employee timer.debug.xcconfig */,
-				C85FED60A567714D97C14E2F /* Pods-employee timer.release.xcconfig */,
 				1667B5A4CBB25A1ECA3B1E5E /* Pods-WalkWalk.debug.xcconfig */,
 				3AEA15E2A3CCF78E0395E7AB /* Pods-WalkWalk.release.xcconfig */,
 			);
